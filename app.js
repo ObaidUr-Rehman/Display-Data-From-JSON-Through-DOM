@@ -476,12 +476,9 @@ for (var key in data.teams){
   tablerow2.appendChild(tabledata)
   table.appendChild(tablerow2)
 
-
   var tabledatatext= document.createTextNode(data.teams[key].name)
   tabledata.appendChild(tabledatatext) 
   //For Country
-
-
 
   //For Code
   var tabledata2= document.createElement("td")
@@ -530,11 +527,5 @@ for (var key in data.teams){
  
   var tabledatatext5 =document.createTextNode(`Name:${data.teams[key].assoc.continental.name}`)
   tabledata5.appendChild(tabledatatext5)
-
   //For continental
-
-
-
 }
-
-
